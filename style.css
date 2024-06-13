@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://picsum.photos/1900/1900");
+    background-size: cover;
+    background-position: center;
+}
+
+.previsaoOut{
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 30px;
+    color: white;
+}
+
+.input-city{
+    border: none;
+    outline: none;
+    padding: 13px;
+    border-radius: 50px;
+    font-size: 18px;
+    background-color: #e6e6e62b;
+    color: white;
+    width: 100%;
+}
+
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 50px;
+    background-color: #2727272b;
+    opacity: 0.8;
+    color: white;
+    float: right;
+    position: relative;
+    top: -45px;
+    margin: 5px 10px;
+}
+
+.search-button i{
+   font-size: 17px;
+}
+
+.temp-sp{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 19px 0px;
+    flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+
+
+.medium-box .cloud{
+    font-size: 25px;
+    position: relative;
+    left: -6px;
+}
